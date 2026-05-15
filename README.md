@@ -7,10 +7,10 @@ The simulation is written in Python using NumPy, Matplotlib, and Numba CUDA.
 ### Requirements
 
 This code requires a CUDA-capable GPU.  
-Python packages
-numpy
-numba
-matplotlib
+Python packages:
+numpy 2.4.3
+numba 0.64.0
+matplotlib 3.10.9
 
 ### How to run
 `python karma.py --G 1e6 --Vs 1e-2`
