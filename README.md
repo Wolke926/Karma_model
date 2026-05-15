@@ -1,16 +1,17 @@
 # Karma Model Phase-Field Simulation
 
-This repository contains a CUDA-accelerated phase-field simulation code for dendritic/cellular solidification based on a Karma-type model. The code evolves the phase field `phi` and solute concentration field `c` under an imposed thermal gradient and pulling velocity.
+This repository contains a CUDA-accelerated phase-field simulation code for dendritic/cellular solidification based on a Karma-type model with the CALPHAD method. The code evolves the phase field `phi` and solute concentration field `c` under an imposed thermal gradient and pulling velocity; a moving-frame and frozen-temperature approach has been applied.
 
 The simulation is written in Python using NumPy, Matplotlib, and Numba CUDA.
 
 ### Requirements
 
 This code requires a CUDA-capable GPU.  
-Python packages:
-numpy 2.4.3
-numba 0.64.0
-matplotlib 3.10.9
+Python packages:  
+`numpy 2.4.3`
+`numba 0.64.0`
+`matplotlib 3.10.9`
+`cuda v12.1`
 
 ### How to run
 `python karma.py --G 1e6 --Vs 1e-2`
