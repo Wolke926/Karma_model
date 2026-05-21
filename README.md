@@ -8,9 +8,12 @@ The simulation is written in Python using NumPy, Matplotlib, and Numba CUDA.
 
 This code requires a CUDA-capable GPU.  
 Python packages:  
-`numpy 2.4.3`
-`numba 0.64.0`
-`matplotlib 3.10.9`
+`numpy 2.4.3`  
+
+`numba 0.64.0`  
+
+`matplotlib 3.10.9`  
+
 `cuda v12.1`
 
 ### How to run
